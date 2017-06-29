@@ -13,7 +13,7 @@ public class AppConfiguration {
  
     @Bean(name ="language")
     public Language getLanguage() {
- 
+    	//default return Vietnamese
         return new Vietnamese();
     }
       

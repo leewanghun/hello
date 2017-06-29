@@ -1,8 +1,10 @@
-package com.test.spring.bean;
+package com.test.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.test.spring.bean.GreetingService;
+import com.test.spring.bean.MyComponent;
 import com.test.spring.config.AppConfiguration;
 import com.test.spring.lang.Language;
 
