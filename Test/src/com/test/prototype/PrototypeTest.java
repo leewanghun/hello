@@ -11,8 +11,9 @@ public class PrototypeTest {
 				
 				// Derive a new value from the prototype's "x" value
 //	            tempotype.setX(tempotype.getX() * y);
-	            tempotype.printX();
-	            System.out.println(tempotype);
+//	            tempotype.printX();
+	            System.out.println(tempotype + "X is " + tempotype.getX());
+	            
 			} catch (CloneNotSupportedException e) {
 				e.printStackTrace();
 			}
